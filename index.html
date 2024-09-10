@@ -3,37 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Document</title>
   </head>
-  <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Glasgow</h1>
-        <p>
-          Tuesday 12:30, sunny with clouds
-          <br />
-          Humidity: 54%, Wind 4.3km/h
-        </p>
-      </div>
-      <div>⛅️ 13ºC</div>
-    </main>
 
-    <footer>
-      Coded by
-      <a href="https://github.com/katyschulga" target="_blank">Katy Schulga</a>
-      and
-      <a href="https://github.com/katyschulga/my-weather" target="_blank"
-        >is open sourced on GitHub</a
-      >, hosted on
-      <a href="https://katy-shecodes-app.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+  <body>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Glasgow</h1>
+          <p>
+            Tuesday 12:30, sunny with clouds
+            <br />
+            Humidity: 54%, Wind 4.3km/h
+          </p>
+        </div>
+        <div>⛅️ 13ºC</div>
+      </main>
+
+      <footer>
+        Coded by
+        <a href="https://github.com/katyschulga" target="_blank"
+          >Katy Schulga</a
+        >
+        and
+        <a href="https://github.com/katyschulga/my-weather" target="_blank"
+          >is open sourced on GitHub</a
+        >, hosted on
+        <a href="https://katy-shecodes-app.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
